@@ -1,0 +1,13 @@
+python-dotenv
+langchain-openai
+langchain
+langchain-nomic
+langchain-groq
+langchain_community
+jq
+langchain_text_splitters
+scikit-learn
+faiss-cpu
+langchain-pinecone
+langchain-core
+streamlit
