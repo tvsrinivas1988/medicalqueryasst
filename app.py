@@ -35,7 +35,7 @@ query = st.text_input("Enter your question:")
 if query:
     with st.spinner("Retrieving info and generating answer..."):
         llm = ChatGroq(
-            model="deepseek-r1-distill-llama-70b",
+            model="openai/gpt-oss-20b",
             temperature=0,
             max_tokens=None,
             reasoning_format="parsed",
@@ -66,3 +66,4 @@ if query:
 
     st.subheader("Answer")
     st.write(ans)
+
